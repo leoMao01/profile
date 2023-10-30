@@ -66,6 +66,10 @@ ul {
   color: #E63946;
 }
 
+li{
+  display: inline;
+}
+
 .cards{
   background-color: white;
   padding: 4em;
