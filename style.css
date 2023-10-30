@@ -1,0 +1,132 @@
+* {
+  font-family: 'Sometype Mono', monospace;
+
+}
+
+body {
+  background: rgb(20,15,45);
+  background: linear-gradient(90deg, rgba(20,15,45,1) 0%, rgba(230,57,70,1) 100%);
+  font-family: 'Sometype Mono', monospace;
+  color: #140F2D;
+  font-size: 16px;
+  line-height: 0.5em;
+}
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+#btn-red {
+  background: rgb(20,15,45);
+  background: linear-gradient(90deg, rgba(20,15,45,1) 0%, rgba(230,57,70,1) 100%);
+  padding: 24px;
+  color: white;
+  margin: 1.5em;
+  border-radius: 5px;
+}
+
+#btn-red:hover {
+  background: rgb(20,15,45);
+  background: linear-gradient(90deg, rgba(20,15,45,1) 0%, rgba(230,57,70,1) 50%);
+}
+
+
+h1{
+  color: #140F2D;
+  font-size: 24px;
+  line-height: 1em;
+}
+
+h2 {
+  color: #140F2D;
+  font-size: 20px;
+  line-height: 1em;
+}
+
+p {
+  color: #140F2D;
+  font-size: 16px;
+  margin-bottom: 4em;
+  line-height: 1em;
+}
+
+a {
+  text-decoration: none;
+  color: #E63946;
+}
+
+a:hover {
+  color: #AA7BC3;
+}
+
+ul {
+  list-style: none;
+  padding-top: 1.5em;
+  padding-left: 0px;
+  color: #E63946;
+}
+
+.cards{
+  background-color: white;
+  padding: 4em;
+  border-radius: 5px;
+  margin: 1.5em;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  text-align: center;
+}
+
+
+#profil-img {
+  border-radius: 50%;
+  width: 150px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 650px;
+  }
+  .cards {
+    padding: 3em;
+    padding-bottom: 48px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 400px;
+  }
+  .cards {
+    padding: 2em;
+    padding-bottom: 48px;
+  }
+
+  #btn-red {
+    padding: 16px;
+    color: white;
+    margin: 1em;
+  }
+  p{
+    margin-bottom: 3em;
+  }
+}
+
+@media (max-width: 450px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 320px;
+  }
+  .cards {
+    padding: 1em;
+    padding-bottom: 48px;
+  }
+  #btn-red {
+    padding: 16px;
+    color: white;
+    margin: 1em;
+  }
+  p{
+    margin-bottom: 3em;
+  }
+}
